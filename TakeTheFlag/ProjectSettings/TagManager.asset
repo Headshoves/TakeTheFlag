@@ -7,6 +7,8 @@ TagManager:
   - Limits
   - Bot
   - Player1
+  - LeftArea
+  - RightArea
   layers:
   - Default
   - TransparentFX

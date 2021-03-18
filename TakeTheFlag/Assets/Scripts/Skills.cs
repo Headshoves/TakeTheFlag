@@ -39,12 +39,7 @@ public class Skills : MonoBehaviour
 
     public void Creep(float speed)
     {
-
-        if (movex != 0 && movey != 0)
-            rb2d.AddForce(new Vector2(movex * (speed * multImpulse), movey * (speed * multImpulse)), ForceMode2D.Impulse);
-        else
-            rb2d.AddForce(new Vector2(movex2 * (speed * multImpulse), movey2 * (speed * multImpulse)), ForceMode2D.Impulse);
-
+         rb2d.AddForce(new Vector2(movex2 * (speed * multImpulse), movey2 * (speed * multImpulse)), ForceMode2D.Impulse);
     }
 
     private void Direction()
