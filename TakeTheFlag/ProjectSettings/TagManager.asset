@@ -9,6 +9,13 @@ TagManager:
   - Player1
   - LeftArea
   - RightArea
+  - LeftFlag
+  - RightFlag
+  - LeftArena
+  - RightArena
+  - Division
+  - LeftPlayer
+  - RightPlayer
   layers:
   - Default
   - TransparentFX
